@@ -6,7 +6,7 @@
 /* If you want to add a background image to the home page banner instead of using a solid color.
 Just un comment the #banner rule below. */
 #banner {
-  background-image: url(../../images/blue-kitchen-2-overlay.jpg);
+  background-image: url(../../images/cutting-greens.jpeg);
   /* background-color: #264FA2; */
   background-size: cover;
   color: rgba(255, 255, 255, 0.75);
@@ -60,12 +60,13 @@ box-shadow: 3px 3px 5px gray;
 font-family: Helvetica, sans-serif !important;
  } */
 
- header h2{
-   font-size: 2.75em !important;
- }
+ .index-sections{
+  font-size: 3em !important;
+}
 
- title h1 {
-   font-size: 3.125em !important;
+
+ .main-title {
+   font-size: 3.75em !important;
  }
 
  #style-tile{
@@ -77,4 +78,18 @@ hr{
   width:100%;
   height:.025em;
   background: rgb(128, 128, 128);
+}
+
+p {
+  font-family: athelas, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.post{
+padding: 40px;
+}
+
+.noshadow{
+  box-shadow: none !important;
 }
